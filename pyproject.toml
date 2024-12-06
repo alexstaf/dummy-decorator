@@ -5,9 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "dummy-decorator"
 dynamic = ["version"]
-authors = [
-  { name="alexstaf" },
-]
+authors = [{ name="alexstaf" }]
 description = "A simple python decorator that does nothing"
 readme = "README.md"
 requires-python = ">=3.8"
