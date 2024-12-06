@@ -20,6 +20,7 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/alexstaf/dummy-decorator"
 Issues = "https://github.com/alexstaf/dummy-decorator/issues"
+Changelog = "https://github.com/alexstaf/dummy-decorator/blob/main/CHANGELOG.md"
 
 [tool.hatch.version]
 source = "vcs"
