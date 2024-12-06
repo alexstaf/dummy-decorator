@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dummy-decorator"
+dynamic = ["version"]
+authors = [
+  { name="alexstaf" },
+]
+description = "A simple python decorator that does nothing"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/alexstaf/dummy-decorator"
+Issues = "https://github.com/alexstaf/dummy-decorator/issues"
+
+[tool.hatch.version]
+source = "vcs"
+fallback-version = "1.0.0"
